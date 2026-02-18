@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float velocidadMovimiento;
     [SerializeField] private float radioInteraccion;
     [SerializeField] private LayerMask queEsColisionable;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
