@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -14,6 +15,14 @@ public class Player : MonoBehaviour
     [SerializeField] private float velocidadMovimiento;
     [SerializeField] private float radioInteraccion;
     [SerializeField] private LayerMask queEsColisionable;
+
+    public static Player Instance;
+
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+        else Destroy(this);
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
