@@ -85,6 +85,7 @@ public class Player : MonoBehaviour
             }
         }
     }
+
     IEnumerator Move()
     {
         moviendo = true;
