@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1521821060421799869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6280497087575237307}
+  - component: {fileID: 4355796827755060663}
+  - component: {fileID: 1824543000357188698}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6280497087575237307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521821060421799869}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 425.36523, y: 172.85603, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4355796827755060663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521821060421799869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3673cb627e8dde4998ef42e6271c57f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventorySystem.Scripts.InventoryManager
+  debug: 1
+  debugItems:
+  - itemData: {fileID: 11400000, guid: d2e398c7059317d4ab03e558380045fb, type: 2}
+    quantity: 1
+  - itemData: {fileID: 11400000, guid: 179a153ac8af405499a08a65d114a931, type: 2}
+    quantity: 1
+  - itemData: {fileID: 11400000, guid: 8552284d260183c4aaee41884841c3a1, type: 2}
+    quantity: 1
+  - itemData: {fileID: 11400000, guid: 8552284d260183c4aaee41884841c3a1, type: 2}
+    quantity: 10
+  - itemData: {fileID: 11400000, guid: ce6aabd9ee0878046a972ebe96943201, type: 2}
+    quantity: 1
+  - itemData: {fileID: 11400000, guid: 179a153ac8af405499a08a65d114a931, type: 2}
+    quantity: 1
+  - itemData: {fileID: 11400000, guid: 3964a9853a9989140831e0d5dd8b158b, type: 2}
+    quantity: 9
+  OnConsumeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1824543000357188698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521821060421799869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7baf36ae1366247a0abfb7c52912ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryManagerUI
+  itemSlotPrefab: {fileID: 165667733227841387, guid: 9ba731056ae423946b709cf03c51eebb, type: 3}
+  inventoryContainer: {fileID: 0}
+  OnConsumeEvent:
+    m_PersistentCalls:
+      m_Calls: []

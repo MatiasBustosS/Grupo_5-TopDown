@@ -8,7 +8,8 @@ namespace GameKits.InventorySystem.ScriptableObjects
         public enum ItemType
         {
             Consumable,
-            Equipment
+            Equipment,
+            Key
         }
 
         public new string name;
