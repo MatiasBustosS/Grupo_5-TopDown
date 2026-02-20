@@ -1,0 +1,2652 @@
+fileFormatVersion: 2
+guid: e8a72363d03cff645bf37a8060563457
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4913546413234241733
+    second: Standard sprites upd_0
+  - first:
+      213: -5811913541765437920
+    second: Standard sprites upd_1
+  - first:
+      213: -6206028557337543774
+    second: Standard sprites upd_2
+  - first:
+      213: 7271167725246286666
+    second: Standard sprites upd_3
+  - first:
+      213: 3270802001984023316
+    second: Standard sprites upd_4
+  - first:
+      213: -3972094906603498274
+    second: Standard sprites upd_5
+  - first:
+      213: -8003713118216195437
+    second: Standard sprites upd_6
+  - first:
+      213: 8027622158297101103
+    second: Standard sprites upd_7
+  - first:
+      213: 2522492956097484015
+    second: Standard sprites upd_8
+  - first:
+      213: 6430572511486209693
+    second: Standard sprites upd_9
+  - first:
+      213: -1005339069097679578
+    second: Standard sprites upd_10
+  - first:
+      213: 3536268607597839380
+    second: Standard sprites upd_11
+  - first:
+      213: 6554791321645685324
+    second: Standard sprites upd_12
+  - first:
+      213: 607110438182393967
+    second: Standard sprites upd_13
+  - first:
+      213: 8571868943921772235
+    second: Standard sprites upd_14
+  - first:
+      213: 32413249369540395
+    second: Standard sprites upd_15
+  - first:
+      213: 5494388472476505850
+    second: Standard sprites upd_16
+  - first:
+      213: -1883408171109389664
+    second: Standard sprites upd_17
+  - first:
+      213: -383938137497408388
+    second: Standard sprites upd_18
+  - first:
+      213: 3470002767790974477
+    second: Standard sprites upd_19
+  - first:
+      213: -8822298001969252890
+    second: Standard sprites upd_20
+  - first:
+      213: 8794422036691317051
+    second: Standard sprites upd_21
+  - first:
+      213: -5787661591573807280
+    second: Standard sprites upd_22
+  - first:
+      213: 1591070760203435220
+    second: Standard sprites upd_23
+  - first:
+      213: -3890200798031139721
+    second: Standard sprites upd_24
+  - first:
+      213: 2967230177957418037
+    second: Standard sprites upd_25
+  - first:
+      213: -6624063664552422480
+    second: Standard sprites upd_26
+  - first:
+      213: -723455074228008959
+    second: Standard sprites upd_27
+  - first:
+      213: -2452795124072185324
+    second: Standard sprites upd_28
+  - first:
+      213: 6308710098347139045
+    second: Standard sprites upd_29
+  - first:
+      213: 5574347026068138565
+    second: Standard sprites upd_30
+  - first:
+      213: -2384762985983633177
+    second: Standard sprites upd_31
+  - first:
+      213: 30768783872504742
+    second: Standard sprites upd_32
+  - first:
+      213: 2401838788516820351
+    second: Standard sprites upd_33
+  - first:
+      213: 620567341178592128
+    second: Standard sprites upd_34
+  - first:
+      213: 2400162649700398435
+    second: Standard sprites upd_35
+  - first:
+      213: -707837790657534299
+    second: Standard sprites upd_36
+  - first:
+      213: 5530996972162537586
+    second: Standard sprites upd_37
+  - first:
+      213: -2167315479605043577
+    second: Standard sprites upd_38
+  - first:
+      213: 5320841679653692126
+    second: Standard sprites upd_39
+  - first:
+      213: -4518177395369596037
+    second: Standard sprites upd_40
+  - first:
+      213: -1123372919381444393
+    second: Standard sprites upd_41
+  - first:
+      213: 3489530796912297959
+    second: Standard sprites upd_42
+  - first:
+      213: -8357286399239338219
+    second: Standard sprites upd_43
+  - first:
+      213: -1775028825505067654
+    second: Standard sprites upd_44
+  - first:
+      213: -1130893358187143802
+    second: Standard sprites upd_45
+  - first:
+      213: 224719059328377822
+    second: Standard sprites upd_46
+  - first:
+      213: 1006684081329676950
+    second: Standard sprites upd_47
+  - first:
+      213: 55485618564659228
+    second: Standard sprites upd_48
+  - first:
+      213: 7652589377436926099
+    second: Standard sprites upd_49
+  - first:
+      213: 1166302324598164232
+    second: Standard sprites upd_50
+  - first:
+      213: 508456861187866237
+    second: Standard sprites upd_51
+  - first:
+      213: -781429059124331488
+    second: Standard sprites upd_52
+  - first:
+      213: -4069892545845908662
+    second: Standard sprites upd_53
+  - first:
+      213: 1448482801492861483
+    second: Standard sprites upd_54
+  - first:
+      213: -8644334593170204631
+    second: Standard sprites upd_55
+  - first:
+      213: 6203234390832262606
+    second: Standard sprites upd_56
+  - first:
+      213: 5866278998592729695
+    second: Standard sprites upd_57
+  - first:
+      213: 5770461288594822590
+    second: Standard sprites upd_58
+  - first:
+      213: 6732875652646695324
+    second: Standard sprites upd_59
+  - first:
+      213: 5409287304879613746
+    second: Standard sprites upd_60
+  - first:
+      213: -5233687339733504543
+    second: Standard sprites upd_61
+  - first:
+      213: -2634678039730926930
+    second: Standard sprites upd_62
+  - first:
+      213: 8775730261736465137
+    second: Standard sprites upd_63
+  - first:
+      213: 1762717235454883781
+    second: Standard sprites upd_64
+  - first:
+      213: 1465312531408998997
+    second: Standard sprites upd_65
+  - first:
+      213: -6595504963869621521
+    second: Standard sprites upd_66
+  - first:
+      213: -6823767319922601481
+    second: Standard sprites upd_67
+  - first:
+      213: -8358948243329209748
+    second: Standard sprites upd_68
+  - first:
+      213: 6819183115943525757
+    second: Standard sprites upd_69
+  - first:
+      213: -1619396071922103805
+    second: Standard sprites upd_70
+  - first:
+      213: -4736421258470918964
+    second: Standard sprites upd_71
+  - first:
+      213: -4068567281422481437
+    second: Standard sprites upd_72
+  - first:
+      213: 6883424889624887862
+    second: Standard sprites upd_73
+  - first:
+      213: -5310641463578732151
+    second: Standard sprites upd_74
+  - first:
+      213: -7841470414041783521
+    second: Standard sprites upd_75
+  - first:
+      213: -3592447096002130696
+    second: Standard sprites upd_76
+  - first:
+      213: 6105000846260560045
+    second: Standard sprites upd_77
+  - first:
+      213: 3971724008489189469
+    second: Standard sprites upd_78
+  - first:
+      213: -2929345235773845692
+    second: Standard sprites upd_79
+  - first:
+      213: -7376548636796115415
+    second: Standard sprites upd_80
+  - first:
+      213: 8826781907559929231
+    second: Standard sprites upd_81
+  - first:
+      213: 8332077358478711792
+    second: Standard sprites upd_82
+  - first:
+      213: -3074408473138490815
+    second: Standard sprites upd_83
+  - first:
+      213: -8851398421111582829
+    second: Standard sprites upd_84
+  - first:
+      213: -3153148496032475508
+    second: Standard sprites upd_85
+  - first:
+      213: -4079188569751950104
+    second: Standard sprites upd_86
+  - first:
+      213: 5638388894873579577
+    second: Standard sprites upd_87
+  - first:
+      213: 9057231957114830311
+    second: Standard sprites upd_88
+  - first:
+      213: 8339036962276574070
+    second: Standard sprites upd_89
+  - first:
+      213: -2009071429716553180
+    second: Standard sprites upd_90
+  - first:
+      213: 4677551529078318083
+    second: Standard sprites upd_91
+  - first:
+      213: 6761531937366130628
+    second: Standard sprites upd_92
+  - first:
+      213: 8179201528909616855
+    second: Standard sprites upd_93
+  - first:
+      213: -5608536841415352410
+    second: Standard sprites upd_94
+  - first:
+      213: -8327710808170049392
+    second: Standard sprites upd_95
+  - first:
+      213: 9159037213342515660
+    second: Standard sprites upd_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Standard sprites upd_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 287
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f37cbf1939fcbb0800000000000000
+      internalID: -4913546413234241733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 287
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026e9c53d6fe75fa0800000000000000
+      internalID: -5811913541765437920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 287
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab37f578e1cfd9a0800000000000000
+      internalID: -6206028557337543774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 287
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b0795958068e460800000000000000
+      internalID: 7271167725246286666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 288
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41be4e26719346d20800000000000000
+      internalID: 3270802001984023316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 287
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed492cd3ab840e8c0800000000000000
+      internalID: -3972094906603498274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 287
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392f69013591de090800000000000000
+      internalID: -8003713118216195437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 288
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f237a5022d7d76f60800000000000000
+      internalID: 8027622158297101103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe49d949af1b10320800000000000000
+      internalID: 2522492956097484015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 271
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ee689e0abfd3950800000000000000
+      internalID: 6430572511486209693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 272
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6256c9371715c02f0800000000000000
+      internalID: -1005339069097679578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 271
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4140c3a0099531130800000000000000
+      internalID: 3536268607597839380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a118f6afb47fa50800000000000000
+      internalID: 6554791321645685324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 272
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f681b471ab3ec6800800000000000000
+      internalID: 607110438182393967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 271
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6f8a7836565f670800000000000000
+      internalID: 8571868943921772235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2700b6bda7237000800000000000000
+      internalID: 32413249369540395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 271
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af696f7843dff3c40800000000000000
+      internalID: 5494388472476505850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 271
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aae4f14f3accd5e0800000000000000
+      internalID: -1883408171109389664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 255
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cedb25c4afbaaf0800000000000000
+      internalID: -383938137497408388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 240
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06adc7e12de72030800000000000000
+      internalID: 3470002767790974477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 255
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5fbf1b5b6e09580800000000000000
+      internalID: -8822298001969252890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 240
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b317add5f301c0a70800000000000000
+      internalID: 8794422036691317051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 255
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f321262781eafa0800000000000000
+      internalID: -5787661591573807280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_23
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 255
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcbf623d6e941610800000000000000
+      internalID: 1591070760203435220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 255
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ca9604cfa330ac0800000000000000
+      internalID: -3890200798031139721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_25
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 239
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53498f33028bd2920800000000000000
+      internalID: 2967230177957418037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3d7c061399214a0800000000000000
+      internalID: -6624063664552422480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 239
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1088fa96175c5f5f0800000000000000
+      internalID: -723455074228008959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4120ed284dbe5fdd0800000000000000
+      internalID: -2452795124072185324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef96e2d86a0d8750800000000000000
+      internalID: 6308710098347139045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 239
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54aeb87061f0c5d40800000000000000
+      internalID: 5574347026068138565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_31
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 224
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e812f203be97eed0800000000000000
+      internalID: -2384762985983633177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 239
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a334e0cb005d6000800000000000000
+      internalID: 30768783872504742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 223
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75bc4517ab055120800000000000000
+      internalID: 2401838788516820351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_34
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 223
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b982a75b2bc9800800000000000000
+      internalID: 620567341178592128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 223
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3657d8a96371f4120800000000000000
+      internalID: 2400162649700398435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_36
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 224
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6a24997414d26f0800000000000000
+      internalID: -707837790657534299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_37
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 223
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2785283117c02cc40800000000000000
+      internalID: 5530996972162537586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 223
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e9fe1ed062ce1e0800000000000000
+      internalID: -2167315479605043577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_39
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 223
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2e9dd015d67d940800000000000000
+      internalID: 5320841679653692126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 225
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7babc4e8953c41c0800000000000000
+      internalID: -4518177395369596037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_41
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 226
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8b9fd184af860f0800000000000000
+      internalID: -1123372919381444393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_42
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 207
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e74ebe75cd4d6030800000000000000
+      internalID: 3489530796912297959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 191
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517c2277c44f40c80800000000000000
+      internalID: -8357286399239338219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_44
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 191
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d01bd00b4dd57e0800000000000000
+      internalID: -1775028825505067654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_45
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 191
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d18628b724e40f0800000000000000
+      internalID: -1130893358187143802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_46
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 191
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed327893bcc5e1300800000000000000
+      internalID: 224719059328377822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_47
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 191
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69222bc96d578fd00800000000000000
+      internalID: 1006684081329676950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_48
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 191
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1870b840ef15c000800000000000000
+      internalID: 55485618564659228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_49
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 191
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3904e0e5e75733a60800000000000000
+      internalID: 7652589377436926099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 175
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bc26ee8c98f2010800000000000000
+      internalID: 1166302324598164232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_51
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 160
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e76b242d66e0700800000000000000
+      internalID: 508456861187866237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 159
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cf9b1396ec725f0800000000000000
+      internalID: -781429059124331488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_53
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 159
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b28d2fa46d487c0800000000000000
+      internalID: -4069892545845908662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_54
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 159
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22ae3efe6b0a1410800000000000000
+      internalID: 1448482801492861483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_55
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 143
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9281876bc77290880800000000000000
+      internalID: -8644334593170204631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_56
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd2b04ffc0561650800000000000000
+      internalID: 6203234390832262606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5234781ba5396150800000000000000
+      internalID: 5866278998592729695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 159
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb556d008fbc41050800000000000000
+      internalID: 5770461288594822590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_59
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 143
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91f1e8dbbaff6d50800000000000000
+      internalID: 6732875652646695324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_60
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 159
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2372167e426a11b40800000000000000
+      internalID: 5409287304879613746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_61
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 143
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eda9b108153e57b0800000000000000
+      internalID: -5233687339733504543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_62
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 144
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaac050384ebf6bd0800000000000000
+      internalID: -2634678039730926930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_63
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 143
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2a27f5d28a9c970800000000000000
+      internalID: 8775730261736465137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_64
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 127
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c73fb28cfd667810800000000000000
+      internalID: 1762717235454883781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552df87dbf5d55410800000000000000
+      internalID: 1465312531408998997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_66
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 112
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2c93a0e2f0874a0800000000000000
+      internalID: -6595504963869621521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f11812c6cb1d41a0800000000000000
+      internalID: -6823767319922601481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_68
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 111
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6aac7c3cdc0ffb80800000000000000
+      internalID: -8358948243329209748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 127
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7db7241aea92ae50800000000000000
+      internalID: 6819183115943525757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_70
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 111
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a8b6e3adfb689e0800000000000000
+      internalID: -1619396071922103805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_71
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 112
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc47b36c5f9d44eb0800000000000000
+      internalID: -4736421258470918964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_72
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 111
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7490e1d9b8987c0800000000000000
+      internalID: -4068567281422481437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_73
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 112
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6328c289776d68f50800000000000000
+      internalID: 6883424889624887862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_74
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 95
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989dde1d9bfcc46b0800000000000000
+      internalID: -5310641463578732151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_75
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13ed4e44308d2390800000000000000
+      internalID: -7841470414041783521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcc8685660152ec0800000000000000
+      internalID: -3592447096002130696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 95
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0e1da8ce159b450800000000000000
+      internalID: 6105000846260560045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_78
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 80
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5083ef41f56e1730800000000000000
+      internalID: 3971724008489189469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_79
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 79
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f87354700e857d0800000000000000
+      internalID: -2929345235773845692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_80
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9262063f81c31a990800000000000000
+      internalID: -7376548636796115415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 63
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8554fde0670f7a70800000000000000
+      internalID: 8826781907559929231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_82
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbd239563c71a370800000000000000
+      internalID: 8332077358478711792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_83
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 48
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142112858c18555d0800000000000000
+      internalID: -3074408473138490815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_84
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 63
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fc0306804892580800000000000000
+      internalID: -8851398421111582829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_85
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 47
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c865de12624cd34d0800000000000000
+      internalID: -3153148496032475508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_86
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 47
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ece918bb9fc367c0800000000000000
+      internalID: -4079188569751950104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_87
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930727093d49f3e40800000000000000
+      internalID: 5638388894873579577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_88
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 47
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed352c4a70c1bd70800000000000000
+      internalID: 9057231957114830311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_89
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 47
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67309516fe53ab370800000000000000
+      internalID: 8339036962276574070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_90
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 49
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422db5fdd285e14e0800000000000000
+      internalID: -2009071429716553180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_91
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 50
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3046c4d35500ae040800000000000000
+      internalID: 4677551529078318083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_92
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 47
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfba201979c5dd50800000000000000
+      internalID: 6761531937366130628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_93
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 31
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d65dfc847c528170800000000000000
+      internalID: 8179201528909616855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_94
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 16
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af1fb145797a22b0800000000000000
+      internalID: -5608536841415352410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_95
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 15
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090d7de54270e6c80800000000000000
+      internalID: -8327710808170049392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standard sprites upd_96
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 15
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc14dd1a1df6b1f70800000000000000
+      internalID: 9159037213342515660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Standard sprites upd_0: -4913546413234241733
+      Standard sprites upd_1: -5811913541765437920
+      Standard sprites upd_10: -1005339069097679578
+      Standard sprites upd_11: 3536268607597839380
+      Standard sprites upd_12: 6554791321645685324
+      Standard sprites upd_13: 607110438182393967
+      Standard sprites upd_14: 8571868943921772235
+      Standard sprites upd_15: 32413249369540395
+      Standard sprites upd_16: 5494388472476505850
+      Standard sprites upd_17: -1883408171109389664
+      Standard sprites upd_18: -383938137497408388
+      Standard sprites upd_19: 3470002767790974477
+      Standard sprites upd_2: -6206028557337543774
+      Standard sprites upd_20: -8822298001969252890
+      Standard sprites upd_21: 8794422036691317051
+      Standard sprites upd_22: -5787661591573807280
+      Standard sprites upd_23: 1591070760203435220
+      Standard sprites upd_24: -3890200798031139721
+      Standard sprites upd_25: 2967230177957418037
+      Standard sprites upd_26: -6624063664552422480
+      Standard sprites upd_27: -723455074228008959
+      Standard sprites upd_28: -2452795124072185324
+      Standard sprites upd_29: 6308710098347139045
+      Standard sprites upd_3: 7271167725246286666
+      Standard sprites upd_30: 5574347026068138565
+      Standard sprites upd_31: -2384762985983633177
+      Standard sprites upd_32: 30768783872504742
+      Standard sprites upd_33: 2401838788516820351
+      Standard sprites upd_34: 620567341178592128
+      Standard sprites upd_35: 2400162649700398435
+      Standard sprites upd_36: -707837790657534299
+      Standard sprites upd_37: 5530996972162537586
+      Standard sprites upd_38: -2167315479605043577
+      Standard sprites upd_39: 5320841679653692126
+      Standard sprites upd_4: 3270802001984023316
+      Standard sprites upd_40: -4518177395369596037
+      Standard sprites upd_41: -1123372919381444393
+      Standard sprites upd_42: 3489530796912297959
+      Standard sprites upd_43: -8357286399239338219
+      Standard sprites upd_44: -1775028825505067654
+      Standard sprites upd_45: -1130893358187143802
+      Standard sprites upd_46: 224719059328377822
+      Standard sprites upd_47: 1006684081329676950
+      Standard sprites upd_48: 55485618564659228
+      Standard sprites upd_49: 7652589377436926099
+      Standard sprites upd_5: -3972094906603498274
+      Standard sprites upd_50: 1166302324598164232
+      Standard sprites upd_51: 508456861187866237
+      Standard sprites upd_52: -781429059124331488
+      Standard sprites upd_53: -4069892545845908662
+      Standard sprites upd_54: 1448482801492861483
+      Standard sprites upd_55: -8644334593170204631
+      Standard sprites upd_56: 6203234390832262606
+      Standard sprites upd_57: 5866278998592729695
+      Standard sprites upd_58: 5770461288594822590
+      Standard sprites upd_59: 6732875652646695324
+      Standard sprites upd_6: -8003713118216195437
+      Standard sprites upd_60: 5409287304879613746
+      Standard sprites upd_61: -5233687339733504543
+      Standard sprites upd_62: -2634678039730926930
+      Standard sprites upd_63: 8775730261736465137
+      Standard sprites upd_64: 1762717235454883781
+      Standard sprites upd_65: 1465312531408998997
+      Standard sprites upd_66: -6595504963869621521
+      Standard sprites upd_67: -6823767319922601481
+      Standard sprites upd_68: -8358948243329209748
+      Standard sprites upd_69: 6819183115943525757
+      Standard sprites upd_7: 8027622158297101103
+      Standard sprites upd_70: -1619396071922103805
+      Standard sprites upd_71: -4736421258470918964
+      Standard sprites upd_72: -4068567281422481437
+      Standard sprites upd_73: 6883424889624887862
+      Standard sprites upd_74: -5310641463578732151
+      Standard sprites upd_75: -7841470414041783521
+      Standard sprites upd_76: -3592447096002130696
+      Standard sprites upd_77: 6105000846260560045
+      Standard sprites upd_78: 3971724008489189469
+      Standard sprites upd_79: -2929345235773845692
+      Standard sprites upd_8: 2522492956097484015
+      Standard sprites upd_80: -7376548636796115415
+      Standard sprites upd_81: 8826781907559929231
+      Standard sprites upd_82: 8332077358478711792
+      Standard sprites upd_83: -3074408473138490815
+      Standard sprites upd_84: -8851398421111582829
+      Standard sprites upd_85: -3153148496032475508
+      Standard sprites upd_86: -4079188569751950104
+      Standard sprites upd_87: 5638388894873579577
+      Standard sprites upd_88: 9057231957114830311
+      Standard sprites upd_89: 8339036962276574070
+      Standard sprites upd_9: 6430572511486209693
+      Standard sprites upd_90: -2009071429716553180
+      Standard sprites upd_91: 4677551529078318083
+      Standard sprites upd_92: 6761531937366130628
+      Standard sprites upd_93: 8179201528909616855
+      Standard sprites upd_94: -5608536841415352410
+      Standard sprites upd_95: -8327710808170049392
+      Standard sprites upd_96: 9159037213342515660
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

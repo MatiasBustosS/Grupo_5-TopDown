@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &9183099988080180963
+--- !u!1 &3818514820776954910
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7091862347743821118}
-  - component: {fileID: 6436281025415311378}
-  - component: {fileID: 6556499866840637064}
-  - component: {fileID: 6299550456674939612}
-  - component: {fileID: 4530635097184067351}
-  - component: {fileID: 7112362908981262969}
+  - component: {fileID: 6088364734802923242}
+  - component: {fileID: 4934865357592384520}
+  - component: {fileID: 2939996453650999839}
+  - component: {fileID: 130758747805385925}
+  - component: {fileID: 2669820763058133818}
   m_Layer: 0
-  m_Name: player
-  m_TagString: Player
+  m_Name: NPC2
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7091862347743821118
+--- !u!4 &6088364734802923242
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9183099988080180963}
+  m_GameObject: {fileID: 3818514820776954910}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 1.5, z: 0}
+  m_LocalPosition: {x: -2.5, y: 3.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6436281025415311378
+--- !u!212 &4934865357592384520
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9183099988080180963}
+  m_GameObject: {fileID: 3818514820776954910}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -85,27 +84,27 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2118934485221375583, guid: 20fed94b27d9b0d47a22e7e0d5676446, type: 3}
+  m_Sprite: {fileID: -5527972174669230038, guid: aedb96bed92d3734e83536c7862cc61e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.14, y: 0.16}
+  m_Size: {x: 1.3125, y: 1.125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &6556499866840637064
+--- !u!95 &2939996453650999839
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9183099988080180963}
+  m_GameObject: {fileID: 3818514820776954910}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b72b334ff3c35b342895c90851d129c0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 423725ad85af67c49a63a565026b4145, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -117,13 +116,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &6299550456674939612
+--- !u!61 &130758747805385925
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9183099988080180963}
+  m_GameObject: {fileID: 3818514820776954910}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -151,59 +150,37 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0014461353, y: 0.0048204325}
+  m_Offset: {x: -0.21132553, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1}
-    newSize: {x: 0.14, y: 0.16}
+    oldSize: {x: 1.3125, y: 1.125}
+    newSize: {x: 1.3125, y: 1.125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.08119084, y: 0.12914929}
+  m_Size: {x: 0.88984895, y: 1.125}
   m_EdgeRadius: 0
---- !u!50 &4530635097184067351
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9183099988080180963}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &7112362908981262969
+--- !u!114 &2669820763058133818
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9183099988080180963}
+  m_GameObject: {fileID: 3818514820776954910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2cb18a7b8cdafa44876102461d3f807, type: 3}
+  m_Script: {fileID: 11500000, guid: 04fba23abf2d0924fb1d0f3da12dba13, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player
-  velocidadMovimiento: 5
-  radioInteraccion: 0.3
-  queEsColisionable:
-    serializedVersion: 2
-    m_Bits: 64
+  m_EditorClassIdentifier: Assembly-CSharp::NPC
+  gameManager: {fileID: 11400000, guid: 895b04a9ab21c8144b56f93b18c7d01c, type: 2}
+  frases:
+  - "\u201CAlto ah\xED. Si planeas salir del pueblo, deber\xEDas saber lo que te
+    espera.\u201D"
+  - "\u201CMant\xE9n tu arma lista y observa sus patrones. Atacan r\xE1pido\u2026
+    pero dejan aberturas.\u201D"
+  tiempoEntreLetras: 0
+  marcoDialogo: {fileID: 0}
+  textoDialogo: {fileID: 0}
+  canvasAyuda: {fileID: 0}
