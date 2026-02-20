@@ -48,7 +48,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfbf037ba3ba36a4f8d8275217094e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorController
+  _scenes: 0
+  _needKey: 0
   _doorId: 0
+  _key: {fileID: 11400000, guid: eddde81a121bc454c82f7c9b3816df60, type: 2}
 --- !u!95 &4326506663907571968
 Animator:
   serializedVersion: 7
@@ -137,7 +140,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4402154068935180809}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}

@@ -2,9 +2,14 @@ public class Enums
 {
     public enum Scenes
     {
-        MainMenu,
-        Town,
-        Dungeon,
+        OriginScene,
+        Dungeon1,
+        Dungeon2,
+        Dungeon3,
+        Dungeon4,
+        Dungeon5,
+        Dungeon6,
+        Dungeon7,
         Final,
     }
     
