@@ -14,9 +14,12 @@ public class Player : MonoBehaviour
     private Animator anim;
     [SerializeField] private float velocidadMovimiento;
     [SerializeField] private float radioInteraccion;
-    [SerializeField] private LayerMask queEsColisionable;
 
     public static Player Instance;
+
+    private bool interactuando;
+
+    public bool Interactuando { get => interactuando; set => this.interactuando = value; }
 
     private void Awake()
     {
@@ -42,7 +45,12 @@ public class Player : MonoBehaviour
             inputV = Input.GetAxisRaw("Vertical");
         }
 
-        if (!moviendo&&(inputH!=0||inputV!=0))
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+             LanzarInteraccion();
+        }
+
+        if (!interactuando && !moviendo&&(inputH!=0||inputV!=0))
         {
             anim.SetBool("IsWalk", true);
             anim.SetFloat("InputH",inputH);
@@ -65,6 +73,18 @@ public class Player : MonoBehaviour
         
     }
 
+    private void LanzarInteraccion()
+    {
+        colliderDelante = LanzarCheck();
+        if (colliderDelante)
+        {
+            if (colliderDelante.gameObject.CompareTag("NPC"))
+            {
+                NPC npcScript = colliderDelante.gameObject.GetComponent<NPC>();
+                npcScript.Interactuar();
+            }
+        }
+    }
     IEnumerator Move()
     {
         moviendo = true;
@@ -79,6 +99,6 @@ public class Player : MonoBehaviour
 
     private Collider2D LanzarCheck()
     {
-        return Physics2D.OverlapCircle(puntoInteraccion,radioInteraccion,queEsColisionable);
+        return Physics2D.OverlapCircle(puntoInteraccion,radioInteraccion);
     }
 }

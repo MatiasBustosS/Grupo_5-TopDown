@@ -15,7 +15,7 @@ public class NPC : MonoBehaviour
     private bool hablando=false;
 
 
-    private void Interactuar()
+    public void Interactuar()
     {
         gameManager.CambiarEstadoPlayer(false);
         marcoDialogo.SetActive(true);

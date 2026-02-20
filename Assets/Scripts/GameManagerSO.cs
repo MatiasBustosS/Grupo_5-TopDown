@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 [CreateAssetMenu(fileName ="Scriptable Objects/GameManager")]
 public class GameManagerSO : ScriptableObject
 {
-    //private Player player;
+    private Player player;
     private void OnEnable()
     {
         SceneManager.sceneLoaded += NuevaScenaCargada;   
@@ -11,11 +11,11 @@ public class GameManagerSO : ScriptableObject
 
     private void NuevaScenaCargada(Scene arg0, LoadSceneMode arg1)
     {
-        //player = GameObject.FindObjectOfType<Player>();
+        player = GameObject.FindFirstObjectByType<Player>();
     }
 
     public void CambiarEstadoPlayer(bool estado)
     {
-        //player.Interactuando = estado;
+        player.Interactuando = !estado;
     }
 }
