@@ -99,6 +99,7 @@ namespace GameKits.InventorySystem.Scripts
             OnConsumeEvent.Invoke(item.itemData);
             ConsumeItem(item);
         }
+        
 
         private void ConsumeItem(Item item)
         {

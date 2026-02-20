@@ -1,10 +1,13 @@
 using System;
 using System.Collections;
+using GameKits.InventorySystem.ScriptableObjects;
+using GameKits.InventorySystem.Scripts;
 using UnityEngine;
 
 public class DoorController : MonoBehaviour
 {
     [SerializeField] private int _doorId;
+    [SerializeField] private ItemData key;
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
     
@@ -31,7 +34,8 @@ public class DoorController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            StartCoroutine(OpenDoor());
+            if(InventoryManager.instance.Consume(key))
+                StartCoroutine(OpenDoor());
         }
     }
 }

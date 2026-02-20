@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class EnemyController : MovementController
 {
@@ -42,6 +43,7 @@ public class EnemyController : MovementController
 
     protected override void Update()
     {
+        base.Update();
         CheckPlayerDistance();
         
         anim.SetBool("isMoving", state == EnemyState.Patrol || state == EnemyState.Chase);
@@ -71,7 +73,6 @@ public class EnemyController : MovementController
                 break;
         }
         
-        base.Update();
     }
     
     void HandleIdle()
@@ -91,8 +92,11 @@ public class EnemyController : MovementController
         if (patrolPoints.Length == 0)
             return;
 
-        Vector2 dir = (targetPoint - transform.position).normalized;
-        moveTo = dir;
+        Vector2 direction = (targetPoint - transform.position).normalized;
+        
+        transform.localScale = new Vector3(Mathf.Sign(targetPoint.x - transform.position.x), 1, 1); 
+        
+        moveTo = direction;
 
         if (Vector2.Distance(transform.position, targetPoint) < 0.2f)
         {
@@ -104,22 +108,17 @@ public class EnemyController : MovementController
                 currentPointIndex = 0;
 
             targetPoint = patrolPoints[currentPointIndex].position;
-
-            transform.localScale = new Vector3(Mathf.Sign(targetPoint.x - transform.position.x), 1, 1);
         }
     }
     
     
     void HandleChase()
     {
-
-        Vector2 dir = (targetPoint - transform.position).normalized;
+        Vector2 direction = (player.transform.position - transform.position).normalized;
         
-        transform.localScale = new Vector3(Mathf.Sign(targetPoint.x - transform.position.x), 1, 1);
-
-        targetPoint = patrolPoints[currentPointIndex].position;
+        transform.localScale = new Vector3(Mathf.Sign(player.transform.position.x - transform.position.x), 1, 1);
         
-        moveTo = dir;
+        moveTo = direction;
 
         if (Vector2.Distance(transform.position, player.transform.position) <= attackRange)
         {
@@ -174,6 +173,11 @@ public class EnemyController : MovementController
     
     private void OnDrawGizmos()
     {
+        
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, detectRange);
+        Gizmos.color = Color.black;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
         
     }
 }
