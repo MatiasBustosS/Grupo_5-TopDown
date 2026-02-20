@@ -17,13 +17,13 @@ public class DoorController : MonoBehaviour
     
     public int DoorID => _doorId;
     
-    private LevelLoader ll;
+    private LevelLoader levelLoader;
 
     private void Start()
     {
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        ll = FindFirstObjectByType<LevelLoader>().GetComponent<LevelLoader>();
+        levelLoader = FindFirstObjectByType<LevelLoader>().GetComponent<LevelLoader>();
 
     }
 
@@ -32,15 +32,15 @@ public class DoorController : MonoBehaviour
         _spriteRenderer.enabled = true;
         _animator.SetBool("isOpen", true);
         yield return new WaitForSeconds(0.51f);
-        if(ll != null)
-            ll.LoadScene(_scenes.ToString());
+        if(levelLoader != null)
+            levelLoader.LoadScene(_scenes.ToString());
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            if (InventoryManager.instance.Consume(_key) && _needKey)
+            if (InventoryManager.instance.TryConsume(_key) && _needKey)
             {
                 GameManager.Instance.SavePlayerPosition(other.transform.position);
                 GameManager.Instance.lastDoorID = _doorId;
@@ -51,7 +51,7 @@ public class DoorController : MonoBehaviour
             {
                 GameManager.Instance.SavePlayerPosition(other.transform.position);
                 GameManager.Instance.lastDoorID = _doorId;
-                ll.LoadScene(_scenes.ToString());
+                levelLoader.LoadScene(_scenes.ToString());
             }
         }
     }

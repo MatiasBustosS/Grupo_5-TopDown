@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class EnemyController : MovementController
 {
@@ -22,9 +20,9 @@ public class EnemyController : MovementController
     [Header("Detection")]
     [SerializeField] private float detectRange = 5f;
     [SerializeField] private float attackRange = 1.2f;
+    [SerializeField] private Transform player;
 
     private EnemyState state = EnemyState.Idle;
-    private Player player;
     private Vector3 targetPoint;
     private float waitTimer;
 
@@ -37,20 +35,15 @@ public class EnemyController : MovementController
 
     private void Start()
     {
-        info.DamageActual = info.Damage;
-        player = FindFirstObjectByType<Player>().GetComponent<Player>();
+        info.CurrentDamage = info.Damage;
     }
 
-    protected override void Update()
+    protected void Update()
     {
-        base.Update();
         CheckPlayerDistance();
         
         anim.SetBool("isMoving", state == EnemyState.Patrol || state == EnemyState.Chase);
 
-        if (state == EnemyState.Attack)
-            anim.SetTrigger("Attack");
-        
         switch (state)
         {
             case EnemyState.Idle:
@@ -66,16 +59,30 @@ public class EnemyController : MovementController
                 break;
 
             case EnemyState.Attack:
-                HandleAttack();
+                anim.SetTrigger("Attack");
                 break;
+
             case EnemyState.Hit:
                 HandleHit();
                 break;
         }
-        
     }
-    
-    void HandleIdle()
+
+    protected override void OnDie()
+    {
+        GetComponent<LootBag>()?.InstantiateLoot(transform.position);
+        base.OnDie();
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, detectRange);
+        Gizmos.color = Color.black;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
+    }
+
+    private void HandleIdle()
     {
         moveTo = Vector2.zero;
         waitTimer += Time.fixedDeltaTime;
@@ -86,8 +93,8 @@ public class EnemyController : MovementController
             state = EnemyState.Patrol;
         }
     }
-    
-    void HandlePatrol()
+
+    private void HandlePatrol()
     {
         if (patrolPoints.Length == 0)
             return;
@@ -110,52 +117,30 @@ public class EnemyController : MovementController
             targetPoint = patrolPoints[currentPointIndex].position;
         }
     }
-    
-    
-    void HandleChase()
+
+
+    private void HandleChase()
     {
-        Vector2 direction = (player.transform.position - transform.position).normalized;
+        Vector2 direction = (player.position - transform.position).normalized;
         
-        transform.localScale = new Vector3(Mathf.Sign(player.transform.position.x - transform.position.x), 1, 1);
+        transform.localScale = new Vector3(Mathf.Sign(player.position.x - transform.position.x), 1, 1);
         
         moveTo = direction;
 
-        if (Vector2.Distance(transform.position, player.transform.position) <= attackRange)
+        if (Vector2.Distance(transform.position, player.position) <= attackRange)
         {
             state = EnemyState.Attack;
         }
     }
-    
-    void HandleAttack()
-    {
-        moveTo = Vector2.zero;
-        DealDamage();
-    }
-    
-    public void HandleHit()
+
+    private void HandleHit()
     {
         moveTo = Vector2.zero;
     }
-    
-    public void DealDamage()
+
+    private void CheckPlayerDistance()
     {
-        Collider2D hit = Physics2D.OverlapCircle(transform.position + transform.right * 0.5f, 0.5f, LayerMask.GetMask("Player"));
-        
-        
-        if (hit != null)
-        {
-            if (hit.CompareTag("Player"))
-            {
-                hit.GetComponent<CharacterInfo>()?.TakeDamage(info.Damage);
-            }
-        }
-    }
-    
-    
-    
-    void CheckPlayerDistance()
-    {
-        float dist = Vector2.Distance(transform.position, player.transform.position);
+        float dist = Vector2.Distance(transform.position, player.position);
 
         if (dist <= attackRange)
         {
@@ -165,19 +150,9 @@ public class EnemyController : MovementController
         {
             state = EnemyState.Chase;
         }
-        else if (state == EnemyState.Chase)
+        else if (state == EnemyState.Chase || state == EnemyState.Attack)
         {
             state = EnemyState.Patrol;
         }
-    }
-    
-    private void OnDrawGizmos()
-    {
-        
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, detectRange);
-        Gizmos.color = Color.black;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
-        
     }
 }

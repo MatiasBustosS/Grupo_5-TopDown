@@ -93,6 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickableItem
   itemData: {fileID: 0}
+  quantity: 1
   sprite: {fileID: 9200875731346007932}
 --- !u!1 &7082804065712114965
 GameObject:

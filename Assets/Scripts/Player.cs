@@ -69,8 +69,6 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("IsWalk", false);
         }
-
-        
     }
 
     private void LanzarInteraccion()

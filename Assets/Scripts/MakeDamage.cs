@@ -1,23 +1,22 @@
-using System;
 using UnityEngine;
 
 public class MakeDamage : MonoBehaviour
 {
     [SerializeField] private CharacterInfo _characterInfo;
-    private CharacterInfo another;
-    private bool isPlayer;
+
+    private CharacterInfo playerInfo;
+    private MovementController movementController;
+
+    private void Awake()
+    {
+        movementController = GetComponentInParent<MovementController>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) 
         {
-            another = other.gameObject.GetComponent<CharacterInfo>();
-            isPlayer = true;
-        }
-        
-        else if (other.CompareTag("Enemy"))
-        {
-            another = other.gameObject.GetComponent<CharacterInfo>();
-            isPlayer = false;
+            playerInfo = other.gameObject.GetComponent<CharacterInfo>();
         }
     }
 
@@ -25,20 +24,20 @@ public class MakeDamage : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            another = null;
-        }
-        
-        else if (other.CompareTag("Enemy"))
-        {
-            another = null;
+            playerInfo = null;
         }
     }
 
     public void Damage()
     {
-        if (another != null)
+        if (playerInfo != null)
         {
-            another.TakeDamage(_characterInfo.DamageActual);
+            playerInfo.TakeDamage(_characterInfo.CurrentDamage);
+
+            if (playerInfo.IsDeath)
+            {
+                movementController.Restart();
+            }
         }
     }
 }

@@ -67,7 +67,7 @@ namespace GameKits.InventorySystem.Scripts
             inventoryManagerUI.RefreshInventory(inventory);
         }
 
-        public bool Consume(ItemData itemData)
+        public bool TryConsume(ItemData itemData)
         {
             Item item = inventory.Find(x => x.itemData.name == itemData.name);
 

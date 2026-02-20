@@ -7,6 +7,7 @@ namespace GameKits.InventorySystem.Scripts
     public class PickableItem : MonoBehaviour
     {
         [SerializeField] ItemData itemData;
+        [SerializeField] int quantity = 1;
         [SerializeField] SpriteRenderer sprite;
 
         private void Start()
@@ -18,9 +19,15 @@ namespace GameKits.InventorySystem.Scripts
         {
             if (collision.CompareTag("Player"))
             {
-                InventoryManager.instance.AddItem(itemData, 1);
+                InventoryManager.instance.AddItem(itemData, quantity);
                 Destroy(gameObject);
             }
+        }
+
+        public void SetData(ItemData itemData, int quantity)
+        {
+            this.itemData = itemData;
+            this.quantity = quantity;
         }
     }
 }
