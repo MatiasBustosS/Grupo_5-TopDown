@@ -23,7 +23,7 @@ public class EnemyController : MovementController
     [SerializeField] private float attackRange = 1.2f;
 
     private EnemyState state = EnemyState.Idle;
-    //private Player player;
+    private Player player;
     private Vector3 targetPoint;
     private float waitTimer;
 
@@ -37,12 +37,12 @@ public class EnemyController : MovementController
     private void Start()
     {
         info.DamageActual = info.Damage;
-        //player = Player.instance;
+        player = FindFirstObjectByType<Player>().GetComponent<Player>();
     }
 
     protected override void Update()
     {
-        //CheckPlayerDistance();
+        CheckPlayerDistance();
         
         anim.SetBool("isMoving", state == EnemyState.Patrol || state == EnemyState.Chase);
 
@@ -60,7 +60,7 @@ public class EnemyController : MovementController
                 break;
 
             case EnemyState.Chase:
-                //HandleChase();
+                HandleChase();
                 break;
 
             case EnemyState.Attack:
@@ -109,15 +109,15 @@ public class EnemyController : MovementController
         }
     }
     
-    /*
+    
     void HandleChase()
     {
 
-        float dir = Mathf.Sign(player.transform.position.x - transform.position.x);
+        Vector2 dir = (targetPoint - transform.position).normalized;
         
-        transform.localScale = new Vector3(1 * dir, 1, 1);
+        transform.localScale = new Vector3(Mathf.Sign(targetPoint.x - transform.position.x), 1, 1);
 
-        targetPoint = dir < 0 ? pointB.position : pointA.position;
+        targetPoint = patrolPoints[currentPointIndex].position;
         
         moveTo = dir;
 
@@ -125,7 +125,7 @@ public class EnemyController : MovementController
         {
             state = EnemyState.Attack;
         }
-    }*/
+    }
     
     void HandleAttack()
     {
@@ -153,7 +153,7 @@ public class EnemyController : MovementController
     }
     
     
-    /*
+    
     void CheckPlayerDistance()
     {
         float dist = Vector2.Distance(transform.position, player.transform.position);
@@ -170,7 +170,7 @@ public class EnemyController : MovementController
         {
             state = EnemyState.Patrol;
         }
-    }*/
+    }
     
     private void OnDrawGizmos()
     {
