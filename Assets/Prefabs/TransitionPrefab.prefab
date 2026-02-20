@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelLoader
   transicion: {fileID: 403168575128462897}
-  timeTransition: 1
+  timeTransition: 2
 --- !u!1 &6137896505323312288
 GameObject:
   m_ObjectHideFlags: 0
