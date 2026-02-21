@@ -1,5 +1,3 @@
-using GameKits.InventorySystem.Scripts;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace GameKits.AudioSystem.Scripts
@@ -12,23 +10,8 @@ namespace GameKits.AudioSystem.Scripts
 
         [Header("Audio Clips")]
         [SerializeField] AudioClip background;
-        [SerializeField] AudioClip grassWalk;
+        [SerializeField] AudioClip walk;
         [SerializeField] AudioClip death;
-
-        public static AudioManager instance;
-
-        private void Awake()
-        {
-            if (instance == null)
-            {
-                instance = this;
-                DontDestroyOnLoad(gameObject);
-            }
-            else
-            {
-                Destroy(gameObject);
-            }
-        }
 
         private void Start()
         {
@@ -50,8 +33,7 @@ namespace GameKits.AudioSystem.Scripts
         {
             return audioType switch
             {
-                AudioType.Background => background,
-                AudioType.GrassWalk => grassWalk,
+                AudioType.Walk => walk,
                 AudioType.Death => death,
                 _ => null,
             };
@@ -59,8 +41,7 @@ namespace GameKits.AudioSystem.Scripts
 
         public enum AudioType
         {
-            Background,
-            GrassWalk,
+            Walk,
             Death
         }
     }

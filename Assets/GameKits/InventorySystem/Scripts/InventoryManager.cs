@@ -18,7 +18,7 @@ namespace GameKits.InventorySystem.Scripts
         [HideInInspector] public UnityEvent<ItemData> OnConsumeEvent;
         
         private InventoryManagerUI inventoryManagerUI;
-        private List<Item> inventory = new();
+        private readonly List<Item> inventory = new();
 
         private void Awake()
         {
@@ -26,10 +26,6 @@ namespace GameKits.InventorySystem.Scripts
             {
                 instance = this;
                 DontDestroyOnLoad(gameObject);
-
-                inventoryManagerUI = GetComponent<InventoryManagerUI>();
-
-                inventoryManagerUI.OnConsumeEvent.AddListener(OnConsume);
             }
             else
             {
@@ -39,15 +35,16 @@ namespace GameKits.InventorySystem.Scripts
 
         private void Start()
         {
-            if(debug && debugItems is not null)
+            inventoryManagerUI = GetComponent<InventoryManagerUI>();
+            inventoryManagerUI.OnConsumeEvent.AddListener(OnConsume);
+
+            if (debug && debugItems is not null)
             {
                 foreach(var item in debugItems)
                 {
                     AddItem(item.itemData, item.quantity);
                 }
             }
-
-            inventoryManagerUI.RefreshInventory(inventory);
         }
 
         private void OnDestroy()

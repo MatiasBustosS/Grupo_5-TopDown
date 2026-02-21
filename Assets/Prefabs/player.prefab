@@ -319,7 +319,7 @@ MonoBehaviour:
   currentHealth: 100
   healthManagerUI: {fileID: 0}
   damage: 10
-  attackCooldown: 0.8
+  attackCooldown: 0.5
   moveSpeed: 5
   OnDie:
     m_PersistentCalls:
