@@ -13,11 +13,24 @@ public class PlayerController : MovementController
     private static readonly WaitForSeconds _waitForSeconds0_5 = new(0.5f);
     private Animator animator;
     private Vector2 lastInput;
+    private bool interactuando;
+
+    public bool Interactuando { get => interactuando; set => interactuando = value; }
+
+    public static PlayerController Instance;
 
     protected override void Awake()
     {
-        base.Awake();
-        animator = GetComponent<Animator>();
+        if(Instance == null)
+        {
+            base.Awake();
+            animator = GetComponent<Animator>();
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
     }
 
     private void OnEnable()
@@ -27,14 +40,17 @@ public class PlayerController : MovementController
 
     private void Update()
     {
-        moveTo = move.action.ReadValue<Vector2>();
-
-        if(moveTo != Vector2.zero)
+        if (!interactuando)
         {
-            lastInput = moveTo;
-        }
+            moveTo = move.action.ReadValue<Vector2>();
 
-        SetAnimation();
+            if(moveTo != Vector2.zero)
+            {
+                lastInput = moveTo;
+            }
+
+            SetAnimation();
+        }
     }
 
     private void OnDrawGizmos()

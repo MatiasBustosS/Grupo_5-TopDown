@@ -19,7 +19,7 @@ public class DoorsManager : MonoBehaviour
 
             if (GameManager.Instance.TryGetSavedPosition(map, out Vector3 savedPosition))
             {
-                Player.Instance.transform.position = savedPosition;
+                PlayerController.Instance.transform.position = savedPosition;
             }
         } 
     }
