@@ -347,6 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 459cbc86ebb220b45b871e16c4c0005b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
+  deathParticle: {fileID: 5520515761493710723, guid: 33acddd23cfa4d34996dc2ad48d7763d, type: 3}
   anim: {fileID: 5503568758202694176}
   patrolPoints:
   - {fileID: 3264167183144623405}

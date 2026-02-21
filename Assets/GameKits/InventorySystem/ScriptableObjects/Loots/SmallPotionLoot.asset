@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4156bffc909960d489339e4732a9c2a7, type: 3}
   m_Name: SmallPotionLoot
   m_EditorClassIdentifier: Assembly-CSharp::GameKits.InventorySystem.ScriptableObjects.Loot
-  itemData: {fileID: 0}
-  dropChance: 0
+  itemData: {fileID: 11400000, guid: 3964a9853a9989140831e0d5dd8b158b, type: 2}
+  dropChance: 50

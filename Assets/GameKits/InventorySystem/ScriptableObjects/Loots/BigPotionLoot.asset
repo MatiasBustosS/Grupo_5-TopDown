@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4156bffc909960d489339e4732a9c2a7, type: 3}
   m_Name: BigPotionLoot
   m_EditorClassIdentifier: Assembly-CSharp::GameKits.InventorySystem.ScriptableObjects.Loot
-  itemData: {fileID: 0}
-  dropChance: 0
+  itemData: {fileID: 11400000, guid: 8552284d260183c4aaee41884841c3a1, type: 2}
+  dropChance: 30

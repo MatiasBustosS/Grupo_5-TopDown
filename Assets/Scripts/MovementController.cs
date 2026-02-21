@@ -10,6 +10,8 @@ public class MovementController : MonoBehaviour
     protected Vector2 moveTo;
     private Vector3 startPosition;
 
+    [SerializeField] protected ParticleSystem deathParticle;
+
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -43,6 +45,8 @@ public class MovementController : MonoBehaviour
 
     protected virtual void OnDie()
     {
+        Instantiate(deathParticle, transform.position, Quaternion.identity);
+
         Destroy(gameObject);
     }
 }

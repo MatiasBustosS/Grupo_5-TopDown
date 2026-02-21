@@ -32,4 +32,14 @@ public class GameManager : MonoBehaviour
     {
         return savedPositions.TryGetValue(map, out position);
     }
+
+    public void ResetPlayerPosition()
+    {
+        var keys = new List<Scenes>(savedPositions.Keys);
+
+        foreach (Scenes scene in keys)
+        {
+            savedPositions[scene] = Vector3.zero;
+        }
+    }
 }

@@ -1,4 +1,5 @@
 using GameKits.HealthSystem.Scripts;
+using GameKits.InventorySystem.ScriptableObjects;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -33,20 +34,36 @@ public class CharacterInfo : MonoBehaviour, IDamagable
     private static readonly WaitForSeconds _waitForSeconds0_5 = new(0.5f);
     private int currentDamage;
     private bool isDeath;
+    private int hitCount;
+    private int minHitsToAnimate = 1;
 
-    void Awake()
+    private void Awake()
     {
         currentHealth = maxHealth;
     }
 
-    
+    private void Start()
+    {
+        if (gameObject.CompareTag("Enemy"))
+        {
+            minHitsToAnimate = 3;
+        }
+    }
+
     public void TakeDamage(int amount)  
     {
         currentHealth -= amount;
 
         healthManagerUI.UpdateBar(maxHealth, currentHealth);
 
-        GetComponentInChildren<Animator>().SetTrigger("Hit");
+        hitCount++;
+
+        if(hitCount >= minHitsToAnimate)
+        {
+            GetComponentInChildren<Animator>().SetTrigger("Hit");
+            hitCount = 0;
+        }
+
 
         if (currentHealth <= 0)
         {
@@ -65,6 +82,13 @@ public class CharacterInfo : MonoBehaviour, IDamagable
         {
             isDeath = true;
         }
+    }
+
+    public void RestoreHealth(ItemData itemData)
+    {
+        currentHealth += (int)itemData.attribute;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+        healthManagerUI.UpdateBar(maxHealth, currentHealth);
     }
 
     public void Restart()

@@ -46,6 +46,8 @@ namespace GameKits.InventorySystem.Scripts
                     AddItem(item.itemData, item.quantity);
                 }
             }
+
+            inventoryManagerUI.RefreshInventory(inventory);
         }
 
         private void OnDestroy()

@@ -9,6 +9,7 @@ namespace GameKits.InventorySystem.Scripts
         [SerializeField] ItemData itemData;
         [SerializeField] int quantity = 1;
         [SerializeField] SpriteRenderer sprite;
+        [SerializeField] ParticleSystem pickParticle;
 
         private void Start()
         {
@@ -19,6 +20,7 @@ namespace GameKits.InventorySystem.Scripts
         {
             if (collision.CompareTag("Player"))
             {
+                Instantiate(pickParticle, transform.position, Quaternion.identity);
                 InventoryManager.instance.AddItem(itemData, quantity);
                 Destroy(gameObject);
             }

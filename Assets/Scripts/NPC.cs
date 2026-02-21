@@ -27,16 +27,14 @@ public class NPC : MonoBehaviour
         {
             CompletarFrase();
         }
-        
-        
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             canvasAyuda.SetActive(true);
         }
-        
     }
 
     private void OnCollisionExit2D(Collision2D collision)

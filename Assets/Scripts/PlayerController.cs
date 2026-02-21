@@ -1,3 +1,6 @@
+using GameKits.InventorySystem.ScriptableObjects;
+using GameKits.InventorySystem.Scripts;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -9,11 +12,13 @@ public class PlayerController : MovementController
     [Header("Input Actions")]
     [SerializeField] private InputActionReference move;
     [SerializeField] private InputActionReference attack;
+    [SerializeField] private InputActionReference interact;
 
     private static readonly WaitForSeconds _waitForSeconds0_5 = new(0.5f);
     private Animator animator;
     private Vector2 lastInput;
     private bool interactuando;
+    private float lastAttackTime;
 
     public bool Interactuando { get => interactuando; set => interactuando = value; }
 
@@ -33,13 +38,21 @@ public class PlayerController : MovementController
         }
     }
 
+    private void Start()
+    {
+        InventoryManager.instance.OnConsumeEvent.AddListener(OnConsume);
+    }
+
     private void OnEnable()
     {
         attack.action.started += Attack;
+        interact.action.started += Interact;
     }
 
     private void Update()
     {
+        lastAttackTime += Time.deltaTime;
+
         if (!interactuando)
         {
             moveTo = move.action.ReadValue<Vector2>();
@@ -64,10 +77,15 @@ public class PlayerController : MovementController
     {
         base.OnDisable();
         attack.action.started -= Attack;
+        interact.action.started -= Interact;
+        InventoryManager.instance.OnConsumeEvent.RemoveListener(OnConsume);
     }
 
     protected override void OnDie()
     {
+        Instantiate(deathParticle, transform.position, Quaternion.identity);
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
+
         StartCoroutine(RespawnPlayer());
     }
 
@@ -76,10 +94,18 @@ public class PlayerController : MovementController
         yield return _waitForSeconds0_5;
 
         Restart();
+        gameObject.GetComponent<SpriteRenderer>().enabled = true;
     }
 
     private void Attack(InputAction.CallbackContext obj)
     {
+        if(lastAttackTime < info.AttackCooldown)
+        {
+            return;
+        }
+
+        lastAttackTime = 0;
+
         animator.SetTrigger("Attack");
 
         Collider2D hit = Physics2D.OverlapCircle(GetAttackCircle(), 0.5f, LayerMask.GetMask("Enemy"));
@@ -109,5 +135,25 @@ public class PlayerController : MovementController
         Vector3 direction = (Vector3)lastInput.normalized;
 
         return transform.position + direction * 0.5f;
+    }
+
+    private void Interact(InputAction.CallbackContext context)
+    {
+        StartInteraction();
+    }
+
+    private void StartInteraction()
+    {
+        var npcCollider = Physics2D.OverlapCircle(GetAttackCircle(), 0.5f, LayerMask.GetMask("NPC"));
+
+        if (npcCollider && npcCollider.gameObject.TryGetComponent<NPC>(out NPC npcScript))
+        {
+            npcScript.Interactuar();
+        }
+    }
+
+    private void OnConsume(ItemData itemData)
+    {
+        info.RestoreHealth(itemData);
     }
 }

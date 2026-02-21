@@ -299,8 +299,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a85d7d1804504064db4f2704cd2437c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  deathParticle: {fileID: 5520515761493710723, guid: 33acddd23cfa4d34996dc2ad48d7763d, type: 3}
   move: {fileID: 8964199751816927869, guid: 16f9cc4f6a6eb4644af4855446304ba8, type: 3}
   attack: {fileID: -5313974794523282420, guid: 16f9cc4f6a6eb4644af4855446304ba8, type: 3}
+  interact: {fileID: -5131235764136900145, guid: 16f9cc4f6a6eb4644af4855446304ba8, type: 3}
 --- !u!114 &8899718663976243738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,7 +319,7 @@ MonoBehaviour:
   currentHealth: 100
   healthManagerUI: {fileID: 0}
   damage: 10
-  attackCooldown: 0.5
+  attackCooldown: 0.8
   moveSpeed: 5
   OnDie:
     m_PersistentCalls:

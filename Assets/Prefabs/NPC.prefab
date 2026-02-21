@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5789872608604868506}
   - component: {fileID: 3054329368724227736}
   - component: {fileID: 5156029656636962387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NPC
   m_TagString: NPC
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 4082934063776701087}
   - component: {fileID: 3297449016589673060}
   - component: {fileID: 136494015937022548}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 37613676488529388}
   - component: {fileID: 7714292554934384930}
   - component: {fileID: 5435363965537866446}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: CanvasAyuda
   m_TagString: Untagged
   m_Icon: {fileID: 0}

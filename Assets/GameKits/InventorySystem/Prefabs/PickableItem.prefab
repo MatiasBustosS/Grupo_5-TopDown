@@ -95,6 +95,7 @@ MonoBehaviour:
   itemData: {fileID: 0}
   quantity: 1
   sprite: {fileID: 9200875731346007932}
+  pickParticle: {fileID: 5520515761493710723, guid: 3360824be7b2a2a4697ebbd236814070, type: 3}
 --- !u!1 &7082804065712114965
 GameObject:
   m_ObjectHideFlags: 0

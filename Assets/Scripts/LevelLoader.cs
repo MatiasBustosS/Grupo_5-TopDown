@@ -12,6 +12,8 @@ public class LevelLoader : MonoBehaviour
     }
     public void LoadScene(int scene)
     {
+        GameManager.Instance?.ResetPlayerPosition();
+
         StartCoroutine(LoadLevel(scene));
     }
 

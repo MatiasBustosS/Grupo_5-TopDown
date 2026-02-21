@@ -10,6 +10,7 @@ public class EnemyController : MovementController
         Attack,
         Hit
     }
+
     [SerializeField] private Animator anim;
     
     [Header("Patrol")]

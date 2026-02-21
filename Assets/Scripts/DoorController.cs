@@ -24,7 +24,6 @@ public class DoorController : MonoBehaviour
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         levelLoader = FindFirstObjectByType<LevelLoader>().GetComponent<LevelLoader>();
-
     }
 
     IEnumerator OpenDoor()
